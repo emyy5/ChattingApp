@@ -164,7 +164,6 @@ extension RegisterViewController : UITextFieldDelegate {
         return true
     }
 }
-
 extension RegisterViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     func presentPhotoActionSheet(){
         let actionSheet = UIAlertController(title: "Profile Picture", message: "How would you like to select a picture", preferredStyle: .actionSheet)
